@@ -2,8 +2,12 @@ server:
   port: 9191
 
 twitter-to-kafka-service:
+  enable-mock-tweets: true
   twitter-keywords:
-    - Sri Lanka
+    - tragedy
+    - graphic
+    - knife
+    - pressure
   welcome-message: Hello Twitter4j
 
 retry-config:
